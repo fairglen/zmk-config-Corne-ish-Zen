@@ -31,9 +31,8 @@
      **********************************************************************/
     combos {
       compatible = "zmk,combos";
-
+    
       combo_bt_oneshot {
-        label = "BT_OSL";
         timeout-ms = <50>;
         // Assumido layout 3x6_3: B=29, N=30
         key-positions = <29 30>;
