@@ -54,7 +54,7 @@ jobs:
       - name: Rename zmk.uf2
         run: cp build/zephyr/zmk.uf2 corneish_zen_right.uf2
       - name: Archive (Corne-ish Zen Right)
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: firmware
           path: corneish_zen_right.uf2
